@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    /* overflow: hidden; */
+    overflow-x: hidden;
+}
+
+/* ============================================================================
+                        header
+===============================================================================*/
+
+.MenuIcon{
+    position: fixed;
+    left: 92%;
+    margin: 1em;
+    height:5em;
+    width: 5em;
+    background: url(./Assets/IMGs/NewMenuIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+.MyLogo{
+    /* position: fixed; */
+    margin: 1em;
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    background: url(./Assets/IMGs/MyLogo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+}
+
+/* ===========================================================================
+                                LandingPage 
+========================================================================*/
+
+
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* display: none; */
+}
+
+#page1 article{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#page1 aside{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+
+            /* Left Part */
+
+
+#page1 article h2{
+    margin-left: 1em;
+    position: absolute;
+    top: 25%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.63);
+}
+
+#page1 article h1{
+    margin-left: 1em;
+    position: absolute;
+    top: 30%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+
+}
+
+#page1 article p{
+    margin-left: 1em;
+    position: absolute;
+    top: 55%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+/*------------------------- Contact Me-------------------- */
+.Linkedin, .GitHub, .Twitter, .Instagram, .Mail{
+    position: absolute;
+    top: 62%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    /* margin-left: 4em; */
+}
+
+.Linkedin{
+    background: url(./Assets/IMGs/Linkedin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:2em;
+}
+.GitHub{
+    background: url(./Assets/IMGs/Github.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:5em;
+}
+.Twitter{
+    background: url(./Assets/IMGs/Twitter.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:8em;
+}
+.Instagram{
+    background: url(./Assets/IMGs/Instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:11em;
+}
+.Mail{
+    background: url(./Assets/IMGs/Mail.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left:14em;
+}
+
+            /* Download RESUME */
+.Download button{
+    position: absolute;
+    top: 70%;
+    margin-left:2em;
+    width: 18em;
+    height: 4em;
+    background-color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Right Side */
+
+
+.MyImage{
+height: 350px;
+width: 300px;
+position: absolute;
+top:20%;
+left: 2%;
+background: url(./Assets/IMGs/ME.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+box-shadow: 1em 1em 15px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+/* ================================================================================
+                                        QUOTE PAGE          
+ =======================================================================*/
+
+.Quote{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: 10vh;
+}
+
+
+.Quote p:nth-child(1){
+    height: 20vh;
+    width: 420px;
+    margin-left: 2em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+   position: absolute;
+   top: 10vh;
+}
+
+.Quote p:nth-child(2){
+    width: 470px;
+    height: 88px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    position: absolute;
+    right:5vw;
+    top:80vh;
+}
+
+.QuoteIMG{
+    position: absolute;
+    height: 15.6em;
+    width: 15.6em;
+    background: url(./Assets/IMGs/QuoteIMG.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 40vw;
+    top: 40vh;
+}
+
+
+
+/* ================================================================
+                            MY TECH STACK
+=================================================================== */
+
+
+.TechStack{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.TechStack h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 0.2em;
+}
+
+.TechStackBox{
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /* background-color: green; */
+}
+
+.TechStackBox div{
+    height: 25em;
+    width: 27em;
+    background-color: white;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.HTMLbox{
+    top: 5em;
+    text-align: center;
+}
+
+.CSSbox{
+    top: 10em;
+}
+.JavaScriptBox{
+    top: 15em;
+}
+
+.HTMLbox h1, .CSSbox h1, .JavaScriptBox h1{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 37px;
+    margin-top: 0.5em;
+ }
+
+.HTMLbox p, .CSSbox p, .JavaScriptBox p{
+    height:330px;
+    width:300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    margin-left: 4em;
+    margin-top: 1em;
+    
+}
+
+.HTMLbox h1::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/HTMLlogo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+
+}
+
+.CSSbox h1::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/CSSlogo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+
+}
+
+.JavaScriptBox h1::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/JSlogo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+}
