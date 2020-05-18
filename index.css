@@ -13,20 +13,6 @@ body {
                         header
 ===============================================================================*/
 
-.MenuIcon {
-    position: fixed;
-    left: 92%;
-    margin: 1em;
-    height: 5em;
-    width: 5em;
-    background: url(./Assets/IMGs/NewMenuIcon.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    cursor: pointer;
-    z-index: 1;
-}
-
 .MyLogo {
     /* position: fixed; */
     margin: 1em;
@@ -208,7 +194,7 @@ body {
                                         QUOTE PAGE          
  =======================================================================*/
 
-.Quote {
+#Quote {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -217,7 +203,7 @@ body {
 }
 
 
-.Quote p:nth-child(1) {
+#Quote p:nth-child(1) {
     height: 20vh;
     width: 420px;
     margin-left: 2em;
@@ -230,7 +216,7 @@ body {
     top: 10vh;
 }
 
-.Quote p:nth-child(2) {
+#Quote p:nth-child(2) {
     width: 470px;
     height: 88px;
     font-family: Roboto;
@@ -243,7 +229,7 @@ body {
     top: 80vh;
 }
 
-.QuoteIMG {
+#QuoteIMG {
     position: absolute;
     height: 15.6em;
     width: 15.6em;
@@ -263,7 +249,7 @@ body {
 =================================================================== */
 
 
-.TechStack {
+#TechStack {
     height: 100vh;
     width: 100vw;
     background-color: black;
@@ -272,7 +258,7 @@ body {
     margin-top: 10vh;
 }
 
-.TechStack h1 {
+#TechStack h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -283,7 +269,7 @@ body {
     padding-top: 0.2em;
 }
 
-.TechStackBox {
+#TechStackBox {
     position: absolute;
     width: 100vw;
     height: 80vh;
@@ -292,7 +278,7 @@ body {
     margin-left: 2.5vw;
 }
 
-.TechStackBox div {
+#TechStackBox div {
     height: 25em;
     width: 27em;
     background-color: white;
@@ -300,22 +286,22 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.HTMLbox {
+#HTMLbox {
     top: 5em;
     text-align: center;
 }
 
-.CSSbox {
+#CSSbox {
     top: 10em;
 }
 
-.JavaScriptBox {
+#JavaScriptBox {
     top: 15em;
 }
 
-.HTMLbox h1,
-.CSSbox h1,
-.JavaScriptBox h1 {
+#HTMLbox h1,
+#CSSbox h1,
+#JavaScriptBox h1 {
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
@@ -324,9 +310,9 @@ body {
     margin-top: 0.5em;
 }
 
-.HTMLbox p,
-.CSSbox p,
-.JavaScriptBox p {
+#HTMLbox p,
+#CSSbox p,
+#JavaScriptBox p {
     height: 330px;
     width: 300px;
     font-family: Roboto;
@@ -339,7 +325,7 @@ body {
 
 }
 
-.HTMLbox h1::before {
+#HTMLbox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -352,7 +338,7 @@ body {
 
 }
 
-.CSSbox h1::before {
+#CSSbox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -365,7 +351,7 @@ body {
 
 }
 
-.JavaScriptBox h1::before {
+#JavaScriptBox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -383,7 +369,7 @@ body {
                             ApplicableSkills
  ==================================================================*/
 
-.ApplicableSkills {
+#ApplicableSkills {
     height: 100vh;
     width: 100vw;
     background-color: rgb(0, 0, 0);
@@ -392,14 +378,14 @@ body {
     margin-left: 2.5vw;
 }
 
-.ApplicableSkills div {
+#ApplicableSkills div {
     height: 25.3em;
     width: 27em;
     background-color: rgb(255, 255, 255);
     position: relative;
 }
 
-.ApplicableSkills h1 {
+#ApplicableSkills h1 {
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
@@ -409,7 +395,7 @@ body {
     margin-top: 1vh;
 }
 
-.ApplicableSkills p {
+#ApplicableSkills p {
     width: 270px;
     height: 270px;
     font-family: Roboto;
@@ -421,15 +407,126 @@ body {
     margin-left: 4em;
 }
 
-.ApplicableSkills div:nth-child(1) {
+#ApplicableSkills div:nth-child(1) {
     top: 30vh;
 }
 
-.ApplicableSkills div:nth-child(2) {
+#ApplicableSkills div:nth-child(2) {
     top: 10vh;
 }
 
-.ApplicableSkills div:nth-child(3) {
+#ApplicableSkills div:nth-child(3) {
     top: 30vh;
 }
 
+.Skill1::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/IdeaBulb.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+}
+
+.Skill2::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/IntuitiveDesigning.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+}
+
+.Skill3::before{
+    height: 30px;
+    width: 30px;
+    content: '';
+    display: inline-block;
+    background: url(./Assets/IMGs/TeamworkLogo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5em;
+}
+
+
+
+/* ========================================================================================
+                                            MENU
+========================================================================================== */
+
+
+.MenuIcon {
+    position: fixed;
+    left: 92%;
+    margin: 1em;
+    height: 5em;
+    width: 5em;
+    background: url(./Assets/IMGs/NewMenuIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.MenuIcon:active{
+    position: fixed;
+    left: 92%;
+    margin: 1em;
+    height: 5em;
+    width: 5em;
+    background: url(./Assets/IMGs/CancelMenu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#Menu{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+
+#Menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 37px;
+    position: absolute;
+}
+
+#Menu a:nth-child(1){
+    top: 10vh;
+    left: 45vw;
+}
+
+
+#Menu a:nth-child(2){
+    top: 20vh;
+    left: 45vw;
+}
+
+#Menu a:nth-child(3){
+    top: 30vh;
+    left: 45vw;
+}
+
+#Menu a:nth-child(4){
+    top: 40vh;
+    left: 45vw;
+}
