@@ -1,22 +1,23 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-body{
+body {
     /* overflow: hidden; */
     overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
 }
 
 /* ============================================================================
                         header
 ===============================================================================*/
 
-.MenuIcon{
+.MenuIcon {
     position: fixed;
     left: 92%;
     margin: 1em;
-    height:5em;
+    height: 5em;
     width: 5em;
     background: url(./Assets/IMGs/NewMenuIcon.svg);
     background-repeat: no-repeat;
@@ -25,7 +26,8 @@ body{
     cursor: pointer;
     z-index: 1;
 }
-.MyLogo{
+
+.MyLogo {
     /* position: fixed; */
     margin: 1em;
     position: absolute;
@@ -44,7 +46,7 @@ body{
 
 
 
-#page1{
+#page1 {
     height: 100vh;
     width: 100vw;
     background-color: purple;
@@ -53,7 +55,7 @@ body{
     /* display: none; */
 }
 
-#page1 article{
+#page1 article {
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -61,7 +63,7 @@ body{
     color: white;
 }
 
-#page1 aside{
+#page1 aside {
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -69,10 +71,10 @@ body{
 }
 
 
-            /* Left Part */
+/* Left Part */
 
 
-#page1 article h2{
+#page1 article h2 {
     margin-left: 1em;
     position: absolute;
     top: 25%;
@@ -84,7 +86,7 @@ body{
     color: rgba(255, 255, 255, 0.63);
 }
 
-#page1 article h1{
+#page1 article h1 {
     margin-left: 1em;
     position: absolute;
     top: 30%;
@@ -95,7 +97,7 @@ body{
 
 }
 
-#page1 article p{
+#page1 article p {
     margin-left: 1em;
     position: absolute;
     top: 55%;
@@ -107,7 +109,11 @@ body{
 
 
 /*------------------------- Contact Me-------------------- */
-.Linkedin, .GitHub, .Twitter, .Instagram, .Mail{
+.Linkedin,
+.GitHub,
+.Twitter,
+.Instagram,
+.Mail {
     position: absolute;
     top: 62%;
     height: 25px;
@@ -116,47 +122,51 @@ body{
     /* margin-left: 4em; */
 }
 
-.Linkedin{
+.Linkedin {
     background: url(./Assets/IMGs/Linkedin.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left:2em;
+    margin-left: 2em;
 }
-.GitHub{
+
+.GitHub {
     background: url(./Assets/IMGs/Github.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left:5em;
+    margin-left: 5em;
 }
-.Twitter{
+
+.Twitter {
     background: url(./Assets/IMGs/Twitter.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left:8em;
+    margin-left: 8em;
 }
-.Instagram{
+
+.Instagram {
     background: url(./Assets/IMGs/Instagram.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left:11em;
+    margin-left: 11em;
 }
-.Mail{
+
+.Mail {
     background: url(./Assets/IMGs/Mail.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-left:14em;
+    margin-left: 14em;
 }
 
-            /* Download RESUME */
-.Download button{
+/* Download RESUME */
+.Download button {
     position: absolute;
     top: 70%;
-    margin-left:2em;
+    margin-left: 2em;
     width: 18em;
     height: 4em;
     background-color: #fff;
@@ -176,17 +186,17 @@ body{
 /* Right Side */
 
 
-.MyImage{
-height: 350px;
-width: 300px;
-position: absolute;
-top:20%;
-left: 2%;
-background: url(./Assets/IMGs/ME.svg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: 100%;
-box-shadow: 1em 1em 15px rgb(0, 0, 0);
+.MyImage {
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    background: url(./Assets/IMGs/ME.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 1em 1em 15px rgb(0, 0, 0);
 }
 
 
@@ -198,17 +208,16 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
                                         QUOTE PAGE          
  =======================================================================*/
 
-.Quote{
+.Quote {
     height: 100vh;
     width: 100vw;
     position: relative;
     background-color: black;
     color: white;
-    margin-top: 10vh;
 }
 
 
-.Quote p:nth-child(1){
+.Quote p:nth-child(1) {
     height: 20vh;
     width: 420px;
     margin-left: 2em;
@@ -217,11 +226,11 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     font-weight: normal;
     font-size: 36px;
     line-height: 42px;
-   position: absolute;
-   top: 10vh;
+    position: absolute;
+    top: 10vh;
 }
 
-.Quote p:nth-child(2){
+.Quote p:nth-child(2) {
     width: 470px;
     height: 88px;
     font-family: Roboto;
@@ -230,11 +239,11 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     font-size: 36px;
     line-height: 42px;
     position: absolute;
-    right:5vw;
-    top:80vh;
+    right: 5vw;
+    top: 80vh;
 }
 
-.QuoteIMG{
+.QuoteIMG {
     position: absolute;
     height: 15.6em;
     width: 15.6em;
@@ -254,15 +263,16 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
 =================================================================== */
 
 
-.TechStack{
+.TechStack {
     height: 100vh;
     width: 100vw;
     background-color: black;
     color: white;
     position: relative;
+    margin-top: 10vh;
 }
 
-.TechStack h1{
+.TechStack h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -273,16 +283,16 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     padding-top: 0.2em;
 }
 
-.TechStackBox{
+.TechStackBox {
     position: absolute;
     width: 100vw;
     height: 80vh;
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    /* background-color: green; */
+    grid-template-columns: repeat(3, 33.3%);
+    margin-left: 2.5vw;
 }
 
-.TechStackBox div{
+.TechStackBox div {
     height: 25em;
     width: 27em;
     background-color: white;
@@ -290,30 +300,35 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     color: rgb(0, 0, 0);
 }
 
-.HTMLbox{
+.HTMLbox {
     top: 5em;
     text-align: center;
 }
 
-.CSSbox{
+.CSSbox {
     top: 10em;
 }
-.JavaScriptBox{
+
+.JavaScriptBox {
     top: 15em;
 }
 
-.HTMLbox h1, .CSSbox h1, .JavaScriptBox h1{
+.HTMLbox h1,
+.CSSbox h1,
+.JavaScriptBox h1 {
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
     font-size: 36px;
     line-height: 37px;
     margin-top: 0.5em;
- }
+}
 
-.HTMLbox p, .CSSbox p, .JavaScriptBox p{
-    height:330px;
-    width:300px;
+.HTMLbox p,
+.CSSbox p,
+.JavaScriptBox p {
+    height: 330px;
+    width: 300px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -321,10 +336,10 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     line-height: 37px;
     margin-left: 4em;
     margin-top: 1em;
-    
+
 }
 
-.HTMLbox h1::before{
+.HTMLbox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -337,7 +352,7 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
 
 }
 
-.CSSbox h1::before{
+.CSSbox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -350,7 +365,7 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
 
 }
 
-.JavaScriptBox h1::before{
+.JavaScriptBox h1::before {
     height: 30px;
     width: 30px;
     content: '';
@@ -361,3 +376,60 @@ box-shadow: 1em 1em 15px rgb(0, 0, 0);
     background-size: 100%;
     margin-right: 0.5em;
 }
+
+
+
+/* =========================================================================
+                            ApplicableSkills
+ ==================================================================*/
+
+.ApplicableSkills {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    margin-left: 2.5vw;
+}
+
+.ApplicableSkills div {
+    height: 25.3em;
+    width: 27em;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.ApplicableSkills h1 {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.ApplicableSkills p {
+    width: 270px;
+    height: 270px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    margin-top: 1vh;
+    margin-left: 4em;
+}
+
+.ApplicableSkills div:nth-child(1) {
+    top: 30vh;
+}
+
+.ApplicableSkills div:nth-child(2) {
+    top: 10vh;
+}
+
+.ApplicableSkills div:nth-child(3) {
+    top: 30vh;
+}
+
